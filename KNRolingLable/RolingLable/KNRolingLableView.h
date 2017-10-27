@@ -30,6 +30,10 @@
  */
 @property(nonatomic, assign) id<KNRolingLableViewDelegate> delegate;
 
+//title的颜色 .默认橘黄色
+@property(nonatomic, strong)UIColor *titleColor;
+//title的字体大小。 默认14f
+@property(nonatomic, strong)UIFont *titleFont;
 
 /**
  设置动画滚动的字符串数组
@@ -38,9 +42,8 @@
  */
 -(void)setAnimationWithTextsL:(NSArray <NSString *> *)textArray;
 
-/**
- 暂停动画
- */
+
+// 暂停动画
 -(void)stopAnmation;
 
 //继续动画

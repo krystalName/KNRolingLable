@@ -138,6 +138,19 @@ typedef NS_ENUM(NSInteger, KNTitlePosition){
     }
 }
 
+-(void)setTitleColor:(UIColor *)titleColor{
+    if (_titleColor != titleColor) {
+        _titleColor = titleColor;
+        _titleLable.textColor = _titleColor;
+    }
+}
+
+-(void)setTitleFont:(UIFont *)titleFont{
+    if (_titleFont != titleFont) {
+        _titleFont = titleFont;
+        _titleLable.font = _titleFont;
+    }
+}
 
 
 -(UILabel *)titleLable{

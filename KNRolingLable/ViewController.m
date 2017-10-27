@@ -29,6 +29,8 @@
     
     _RolingLableView = [[KNRolingLableView alloc]initWithFrame:CGRectMake(10, 100, 300, 20)];
     _RolingLableView.delegate = self;
+    _RolingLableView.titleColor = [UIColor redColor];
+    _RolingLableView.titleFont = [UIFont systemFontOfSize:17];
     [_RolingLableView setAnimationWithTextsL:@[@"这是第一条数据",@"这是第二条数据",@"这是第三条数据",@"这是第四条数据",]];
     _RolingLableView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.1];
     [self.view addSubview:_RolingLableView];
