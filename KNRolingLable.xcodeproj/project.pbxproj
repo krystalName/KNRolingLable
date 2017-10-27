@@ -13,6 +13,7 @@
 		C20E60D51FA3015D00DF6CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20E60D41FA3015D00DF6CB6 /* Assets.xcassets */; };
 		C20E60D81FA3015D00DF6CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20E60D61FA3015D00DF6CB6 /* LaunchScreen.storyboard */; };
 		C20E60DB1FA3015D00DF6CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E60DA1FA3015D00DF6CB6 /* main.m */; };
+		C20E60E41FA3018800DF6CB6 /* KNRolingLableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C20E60E31FA3018800DF6CB6 /* KNRolingLableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C20E60D71FA3015D00DF6CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C20E60D91FA3015D00DF6CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C20E60DA1FA3015D00DF6CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C20E60E21FA3018800DF6CB6 /* KNRolingLableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNRolingLableView.h; sourceTree = "<group>"; };
+		C20E60E31FA3018800DF6CB6 /* KNRolingLableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNRolingLableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		C20E60CA1FA3015D00DF6CB6 /* KNRolingLable */ = {
 			isa = PBXGroup;
 			children = (
+				C20E60E11FA3017800DF6CB6 /* RolingLable */,
 				C20E60CB1FA3015D00DF6CB6 /* AppDelegate.h */,
 				C20E60CC1FA3015D00DF6CB6 /* AppDelegate.m */,
 				C20E60CE1FA3015D00DF6CB6 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				C20E60DA1FA3015D00DF6CB6 /* main.m */,
 			);
 			path = KNRolingLable;
+			sourceTree = "<group>";
+		};
+		C20E60E11FA3017800DF6CB6 /* RolingLable */ = {
+			isa = PBXGroup;
+			children = (
+				C20E60E21FA3018800DF6CB6 /* KNRolingLableView.h */,
+				C20E60E31FA3018800DF6CB6 /* KNRolingLableView.m */,
+			);
+			path = RolingLable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C20E60D01FA3015D00DF6CB6 /* ViewController.m in Sources */,
+				C20E60E41FA3018800DF6CB6 /* KNRolingLableView.m in Sources */,
 				C20E60DB1FA3015D00DF6CB6 /* main.m in Sources */,
 				C20E60CD1FA3015D00DF6CB6 /* AppDelegate.m in Sources */,
 			);
